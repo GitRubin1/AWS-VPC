@@ -28,6 +28,15 @@ and adding IPv6 compatibility using Terraform documentation from https://www.ter
 
 ## Technologies
 
+
 ## Setup
+
+### Install Terraform
+
+Terraform provides a nice video for installation of their service
+
+Watch the video and follow the instructions in the video located at: https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+
 
 ## Acknowledgements
