@@ -8,7 +8,7 @@ Create and deploy a VPC using Terraform
 * [Setup] (#setup)
 * [Acknowledgements] (#inspiration)
 
-##General Info
+## General Info
 
 This project deploys a VPC in an AWS environment. 
 
