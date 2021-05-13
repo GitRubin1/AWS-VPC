@@ -37,6 +37,16 @@ Terraform provides a nice video for installation of their service
 
 Watch the video and follow the instructions in the video located at: https://learn.hashicorp.com/tutorials/terraform/install-cli
 
+### Install AWS CLI
+
+Go to https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html and follow the instructions for your specific operating system
+
+On the AWS portal, create an IAM user with the desired permissions
+
+Once you are ready run 'aws configure' (Windows) in your command line
+Copy the Access Key ID and Secret Access Key and paste them when prompted
+Select your desired region and leave "Default Ouput Format" null
+
 
 
 ## Acknowledgements
