@@ -3,10 +3,10 @@
 Create and deploy a VPC using Terraform
 
 ## Table of Contents
-* [General Info] (#general-info)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
-* [Acknowledgements] (#inspiration)
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Acknowledgements](#acknowledgements)
 
 ## General Info
 
@@ -25,3 +25,9 @@ It deploys the following resources:
 
 Create cloud VPC in terraform using https://www.youtube.com/watch?v=qnkxOwvHNt4&t=407s as a basis 
 and adding IPv6 compatibility using Terraform documentation from https://www.terraform.io/docs/index.html
+
+## Technologies
+
+## Setup
+
+## Acknowledgements
