@@ -4,7 +4,6 @@ Create and deploy a VPC using Terraform
 
 ## Table of Contents
 * [General Info](#general-info)
-* [Technologies](#technologies)
 * [Setup](#setup)
 * [Acknowledgements](#acknowledgements)
 
@@ -35,11 +34,11 @@ Watch the video and follow the instructions in the video located at: https://lea
 
 Go to https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html and follow the instructions for your specific operating system
 
-On the AWS portal, create an IAM user with the desired permissions
+On the AWS portal, create an IAM user with the desired permissions. Use Programmatic Access and AdministratorAccess can be used just for the sake of this lab.
 
 Once you are ready run `aws configure` (Windows) in your command line.
 Copy the Access Key ID and Secret Access Key and paste them when prompted.
-Select your desired region and leave "Default Ouput Format" null
+Select your desired region and leave "Default Ouput Format" null.
 
 CD into a new folder where you would like to save [vpc.tf](https://github.com/GitRubin1/AWS-VPC-Terraform/blob/main/vpc.tf).
 Run `terraform init` in your command line.
