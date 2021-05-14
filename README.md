@@ -22,6 +22,12 @@ It deploys the following resources:
   7. Public Route Table
   8. Private Route Table
 
+The VPC is comprised of two subnets, one public and one private. 
+The public subnet is associated to a public route table which will send default IPv4 and IPv6 traffic to the internet gateway. 
+The private subnet is associated to a private route table containing two routes, one which will send the default IPv4 traffic to a NAT Gateway and one which will send the default IPv6 traffic to an egress-only internet gateway. 
+Route table associations link the corresponding subnets to their route tables.
+By default, a main route table gets created in AWS which allows the two subnets to send traffic locally
+
 ## Setup
 
 ### Install Terraform
