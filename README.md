@@ -23,12 +23,6 @@ It deploys the following resources:
   7. Public Route Table
   8. Private Route Table
 
-Create cloud VPC in terraform using https://www.youtube.com/watch?v=qnkxOwvHNt4&t=407s as a basis 
-and adding IPv6 compatibility using Terraform documentation from https://www.terraform.io/docs/index.html
-
-## Technologies
-
-
 ## Setup
 
 ### Install Terraform
@@ -54,3 +48,6 @@ Once you are finished with the resources, delete them using `terraform destroy`
 
 
 ## Acknowledgements
+
+https://www.youtube.com/watch?v=qnkxOwvHNt4&t=407s as a basis for the project
+https://www.terraform.io/docs/index.html to add IPv6 functionality
