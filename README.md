@@ -43,7 +43,7 @@ Go to https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html and fo
 
 On the AWS portal, create an IAM user with the desired permissions
 
-Once you are ready run 'aws configure' (Windows) in your command line
+Once you are ready run `aws configure` (Windows) in your command line
 Copy the Access Key ID and Secret Access Key and paste them when prompted
 Select your desired region and leave "Default Ouput Format" null
 
