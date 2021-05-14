@@ -47,6 +47,10 @@ Once you are ready run `aws configure` (Windows) in your command line
 Copy the Access Key ID and Secret Access Key and paste them when prompted
 Select your desired region and leave "Default Ouput Format" null
 
+Select the location where you would like to save the vpc.tf
+Run `terraform init` in your command line
+To commit the changes to AWS run `terraform apply`
+Once you are finished with the resources, delete them using `terraform destroy`
 
 
 ## Acknowledgements
